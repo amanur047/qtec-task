@@ -1,12 +1,13 @@
 body {
     font-family: 'Poppins';
-    background-color: 	#fafafa  ;
+    background-color: #fafafa;
     padding: 20px;
 }
-main{
+
+main {
     width: 1200px;
     max-width: 90%;
-    margin : 0 auto;
+    margin: 0 auto;
 }
 
 h1 {
@@ -57,21 +58,18 @@ P {
 }
 
 .karma {
-    margin:auto;
-    border: 3px ;
+    margin: auto;
+    border: 3px;
     padding: 10px;
-
     overflow: hidden;
     align-items: center !important;
     height: 250px;
     width: 300px;
     background: white;
     box-shadow: 10px 10px 40px gray;
-
 }
 
 .grid-item3 {
-  
     margin: auto;
     margin-top: 150px;
     width: 50%;
@@ -119,156 +117,178 @@ P {
     margin-right: 0%;
 }
 
-#calculator{
+#calculator {
     border-top: 7px solid;
     border-image: linear-gradient(180deg, blue, blue);
     border-image-slice: 1;
 }
-#calculator-logo{
-    margin-top: 40px;
-    padding-left: 180px;
-    margin-right: 0%;
-}
-.karma{
-    border-top: 7px solid;
-    border-image: linear-gradient(180deg, orange, orange);
-    border-image-slice: 1;
-}
-#karma-logo{
+
+#calculator-logo {
     margin-top: 40px;
     padding-left: 180px;
     margin-right: 0%;
 }
 
-
-        @media (max-width:992px)
-        {
-            .grid-container{
-                grid-template-columns: repeat(1, 1fr);
-            }
-            
-        }
-        @media (max-width:800px)
-        {
 .karma {
-    margin:auto;
-    margin-top:400px;
-    margin-bottom:200px;
-margin-left:3px;
-    border: 3px ;
-    padding: 10px;
-
-    overflow: hidden;
-    height: 250px;
-    width: 300px;
-    background: white;
-    box-shadow: 10px 10px 40px gray;
-
-}
-.karma{
     border-top: 7px solid;
     border-image: linear-gradient(180deg, orange, orange);
     border-image-slice: 1;
 }
-#karma-logo{
+
+#karma-logo {
     margin-top: 40px;
     padding-left: 180px;
     margin-right: 0%;
-}
-.grid-item3 {
-  
-    margin: auto;
-    margin-top: 250px;
-    margin-left:0px;
-    width: 50%;
-    border: 2px;
-    padding:5px;
-    overflow: hidden;
-    align-items: center !important;
-    height: 250px;
-    width: 300px;
-    background: white;
-    box-shadow: 10px 10px 40px gray;
 }
 
-#calculator{
-    border-top: 7px solid;
-    border-image: linear-gradient(180deg, blue, blue);
-    border-image-slice: 1;
+@media (max-width:992px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
-#calculator-logo{
-    margin-top: 40px;
-    padding-left: 180px;
-    margin-right: 0%;
+
+@media (max-width:535px) {
+    .grid-item2 {
+        text-align: center;
+        height: 250px;
+        width: 300px;
+        background: white;
+        box-shadow: 10px 10px 40px gray;
+    }
+    .karma {
+        margin: auto;
+        margin-top: 400px;
+        margin-left: auto;
+        border: 3px;
+        padding: 10px;
+        overflow: hidden;
+        align-items: center !important;
+        height: 250px;
+        width: 300px;
+        background: white;
+        box-shadow: 10px 10px 40px gray;
+    }
+    .karma {
+        border-top: 7px solid;
+        border-image: linear-gradient(180deg, orange, orange);
+        border-image-slice: 1;
+    }
+    #karma-logo {
+        margin-top: 40px;
+        padding-left: 180px;
+        margin-right: 0%;
+    }
+    .grid-item3 {
+        margin: auto;
+        margin-top: 250px;
+        width: 50%;
+        border: 2px;
+        padding: 10px;
+        overflow: hidden;
+        align-items: center !important;
+        height: 250px;
+        width: 300px;
+        background: white;
+        box-shadow: 10px 10px 40px gray;
+    }
+    #calculator {
+        border-top: 7px solid;
+        border-image: linear-gradient(180deg, blue, blue);
+        border-image-slice: 1;
+    }
+    #calculator-logo {
+        margin-top: 40px;
+        padding-left: 180px;
+        margin-right: 0%;
+    }
 }
-        }
-   
-     
-        @media (max-width:535px)
-        {
-            .grid-item2 {
+
+@media (max-width:350px) {
+    .grid-container {
+        display: grid;
+        align-content: space-between;
+        grid-template-columns:1 fr;
+        padding: 10px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        height: 300px;
+        margin: auto;
+    }
+    
+    .grid-item1 {
+    border: 2px;
+    padding: 5px;
     text-align: center;
-   
     height: 250px;
     width: 300px;
+    margin-top: 150px;
+    margin-left: 40px;
     background: white;
     box-shadow: 10px 10px 40px gray;
-}
-           .karma {
-    margin:auto;
-    margin-top:400px;
-    margin-left:auto;
-    border: 3px ;
-    padding: 10px;
-    overflow: hidden;
-    align-items: center !important;
-    height: 250px;
-    width: 300px;
-    background: white;
-    box-shadow: 10px 10px 40px gray;
-
-}
-.karma{
-    border-top: 7px solid;
-    border-image: linear-gradient(180deg, orange, orange);
-    border-image-slice: 1;
-}
-#karma-logo{
-    margin-top: 40px;
-    padding-left: 180px;
-    margin-right: 0%;
-}
-.grid-item3 {
-  
-    margin: auto;
-    margin-top: 250px;
-    width: 50%;
-    border: 2px;
-    padding: 10px;
-    overflow: hidden;
-    align-items: center !important;
-    height: 250px;
-    width: 300px;
-    background: white;
-    box-shadow: 10px 10px 40px gray;
-}
-#calculator{
-    border-top: 7px solid;
-    border-image: linear-gradient(180deg, blue, blue);
-    border-image-slice: 1;
-}
-#calculator-logo{
-    margin-top: 40px;
-    padding-left: 180px;
-    margin-right: 0%;
 }
 
-        }
-   
-     
-     
-        
-    
-        
-    
-    
+.grid-item2 {
+    text-align: center;
+    margin-left: 42px;
+    margin-bottom: 50px;
+    height: 250px;
+    width: 300px;
+    background: white;
+    box-shadow: 10px 10px 40px gray;
+}
+
+    .grid-item2 {
+        text-align: center;
+        height: 250px;
+        width: 300px;
+        background: white;
+        box-shadow: 10px 10px 40px gray;
+    }
+    .karma {
+        margin: auto;
+        margin-top: 400px;
+        margin-left: 30px;
+        border: 3px;
+        padding: 10px;
+        overflow: hidden;
+        align-items: center !important;
+        height: 250px;
+        width: 300px;
+        background: white;
+        box-shadow: 10px 10px 40px gray;
+    }
+    .karma {
+        border-top: 7px solid;
+        border-image: linear-gradient(180deg, orange, orange);
+        border-image-slice: 1;
+    }
+    #karma-logo {
+        margin-top: 40px;
+        padding-left: 180px;
+        margin-right: 0%;
+    }
+    .grid-item3 {
+        margin: auto;
+        margin-left: 30px;
+        margin-top: 250px;
+        width: 50%;
+        border: 2px;
+        padding: 10px;
+        overflow: hidden;
+        align-items: center !important;
+        height: 250px;
+        width: 300px;
+        background: white;
+        box-shadow: 10px 10px 40px gray;
+    }
+    #calculator {
+        border-top: 7px solid;
+        border-image: linear-gradient(180deg, blue, blue);
+        border-image-slice: 1;
+    }
+    #calculator-logo {
+        margin-top: 40px;
+        padding-left: 180px;
+        margin-right: 0%;
+    }
+}
