@@ -148,6 +148,61 @@ P {
     }
 }
 
+@media (max-width:535px) {
+    .grid-item2 {
+        text-align: center;
+        height: 250px;
+        width: 300px;
+        background: white;
+        box-shadow: 10px 10px 40px gray;
+    }
+    .karma {
+        margin: auto;
+        margin-top: 400px;
+        margin-left: auto;
+        border: 3px;
+        padding: 10px;
+        overflow: hidden;
+        align-items: center !important;
+        height: 250px;
+        width: 300px;
+        background: white;
+        box-shadow: 10px 10px 40px gray;
+    }
+    .karma {
+        border-top: 7px solid;
+        border-image: linear-gradient(180deg, orange, orange);
+        border-image-slice: 1;
+    }
+    #karma-logo {
+        margin-top: 40px;
+        padding-left: 180px;
+        margin-right: 0%;
+    }
+    .grid-item3 {
+        margin: auto;
+        margin-top: 250px;
+        width: 50%;
+        border: 2px;
+        padding: 10px;
+        overflow: hidden;
+        align-items: center !important;
+        height: 250px;
+        width: 300px;
+        background: white;
+        box-shadow: 10px 10px 40px gray;
+    }
+    #calculator {
+        border-top: 7px solid;
+        border-image: linear-gradient(180deg, blue, blue);
+        border-image-slice: 1;
+    }
+    #calculator-logo {
+        margin-top: 40px;
+        padding-left: 180px;
+        margin-right: 0%;
+    }
+}
 
 @media (max-width: 375px)
 {
